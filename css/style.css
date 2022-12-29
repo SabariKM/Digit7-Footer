@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    background-color: #f2f2f2;
+}
+.container{
+    margin: 0 20px;
+    padding: 28px 0;
+    max-width: 1460px;
+    width: calc(100% - 40px);
+}
+.footerMenu{
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+.ourLocation,.getInTouch {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+.heading{
+   color: #000000;
+   text-align: left;
+   font-size: 18px;
+   font-weight: 600;
+}
+ul {
+    padding: 0;
+}
+.footerMenu ul li{
+    list-style: none;
+}
+.footerMenu ul li a{
+    line-height: 40px;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+.footerMenu ul li a:hover{
+    color: #1dbef1;
+}
+.ourLocation{
+    font-size: 13px;
+}
+.location{
+    margin: 16px auto;
+}
+.location img{
+    padding-right: 8px;
+}
+.location a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+.location a:hover{
+    color: #1dbef1;
+}
+.location a img{
+    padding-right: 8px;
+}
+.location .para{
+    margin: 5px auto;
+    width: calc(100% - 51px);
+}
+strong.sideHeading {
+    vertical-align: top;
+}
+.getInTouch .para{
+    font-size: 13px;
+    width: calc(100% - 40px);
+}
+input[type="email"] {
+    display: block;
+    padding: 20px;
+    background: #a9a9a917;
+    margin-bottom: 23px;
+    border: none;
+    font-family: 'Poppins';
+    width: 83%;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 14px 25px;
+    background: linear-gradient(270deg, #1dbef1 0, #0a66bc 100%);
+    font-weight: 500;
+    border-radius: 5px;
+    display: block;
+    width: 84px;
+    -webkit-box-shadow: 5px 5px 2px 0px #d9d9d9;
+    box-shadow: 5px 5px 2px 0px #d9d9d9;
+}
+.btn:hover{
+    background: linear-gradient(270deg, #0a66bc 0, #1dbef1 100%);
+}
+.socialmedia a {
+    text-decoration: none;
+    padding: 0 6px;
+}
+.fb {
+    padding-left: 0 !important;
+}
+.socialmedia img {
+    background: #c4c1c1;
+    padding: 5px;
+    border-radius: 20%;
+}
+.footerContent{
+    margin-left: 20px;
+    padding: 27px 5px;
+}
+.footerContent p{
+    color: #000;
+    font-size: 13px;
+}
+.footerContent p span {
+    padding: 0 13px;
+}
+.footerContent p a{
+    text-decoration: none;
+    color: #000;
+}
+.footerContent img {
+    margin: -20px 0;
+}
+@media only screen and (max-width:768px){
+    .footerMenu{
+        width: 49%;
+    }
+    .ourLocation,.getInTouch{
+        width: 48%;
+    }
+}
+@media only screen and (max-width:414px) {
+    .container{
+        padding-left: 20px;
+    }
+    .footerMenu{
+        width: 100%;
+    }
+    .ourLocation,.getInTouch{
+        width: 100%;
+    }
+    ul{
+        margin-left: -9px;
+    }
+    .footerMenu ul li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    .footerContent p{
+        text-align: center;
+    }
+}
